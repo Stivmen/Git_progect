@@ -1,0 +1,130 @@
+body{
+    background-color: #3B3F45;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: all .1s ease-in;
+}
+
+header{
+    background-color: #4A4F56;
+    height: 82px;
+    color: #FF8984;
+}
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+main{
+    width: 534px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.list li{
+    height: 45px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 45px;
+}
+
+li:nth-child(odd){
+    background-color: #88839E;
+}
+
+li:nth-child(even){
+    background-color: #625E77;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+input{
+    margin: 12px 16px 14px 12px;
+    width: 19px;
+    height: 19px;
+}
+.list li:hover{
+    border-bottom: solid 2px #FFFFFF;
+    border-top: solid 2px #FFFFFF;
+}
+
+.label_under{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    padding: 15px 200px 12px 0px;
+}
+
+.label_top{
+    height: 45px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 15px 0px 12px 5px;
+}
+li:active{
+    background-color: #ff7802;
+    transition: all .1s ease-in;
+}
+
+input:checked +label{
+    color: #9B96AC;
+    text-decoration: line-through;
+}
+
+input:checked +label+label{
+    color: #9B96AC;
+    text-decoration: line-through;
+}
+
+h2:after{
+    content: " :)";
+}
+
+footer{
+    width: 534px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #4A4F56;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    color: #FF8984;
+}
