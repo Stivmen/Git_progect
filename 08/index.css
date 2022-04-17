@@ -98,14 +98,14 @@ li:active{
     transition: all .1s ease-in;
 }
 
-input:checked +label{
+/* input:checked +label{
     color: #9B96AC;
     text-decoration: line-through;
 }
 
 input:checked +label+label{
     color: #9B96AC;
-    text-decoration: line-through;
+    text-decoration: line-through; */
 }
 
 h2:after{
@@ -127,4 +127,25 @@ h2{
     padding-top: 8px;
     padding-bottom: 12px;
     color: #FF8984;
+}
+
+.list input{
+    display: none;
+} 
+
+.list label:before{
+    content: '';
+    display: block;
+    text-align: center;
+    color: black;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    background-color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+
+.list input:checked + label:before{
+    content: '\2714';
 }
