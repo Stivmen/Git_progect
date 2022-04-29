@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.nav,
+.lend,
+.text{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text{
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+}
+
+.text_item{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+    list-style: none;
+}
+
+.fat_text_list{
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+    font-weight: 700;
+}
+
+.header .conteiner{
+    display: flex;
+}
+
+.conteiner{
+    max-width: 1852px;
+    padding: 0 24px 44px;
+}
+
+.navigation{
+    display: flex;
+    margin-left: 0;
+    padding-top: 32px;
+}
+
+.leng{
+    padding-right: 41px;
+    font-family: 'Roboto'
+}
+
+.inform{
+    padding-top: 70px;
+}
+
+.logo{
+    margin-right: 0;
+    padding-top: 12px;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.list{
+    padding-left: 0;
+}
+
+.backgreey{
+    background-color: rgb(202, 202, 201);
+}
