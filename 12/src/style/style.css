@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+:root {
+    --black: #000;
+}
+
+.nav,
+.lend,
+.text{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text{
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+}
+
+.text_item{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+    list-style: none;
+}
+
+.fat_text_list{
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+    font-weight: 700;
+}
+
+.header{
+    position: relative;
+    max-width: 1852px;
+}
+
+.nav{
+    padding-left: 120px;
+    position: fixed;
+}
+
+.saitbar{
+    border-bottom: 1px solid gray;
+}
+
+.saitbar_title{
+    padding-top: 91px;
+}
+
+.main{
+    position: relative;
+}
+
+.left-cont{
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: -1;
+}
+
+.right-cont{
+    position: absolute;
+    padding-left: 720px;
+    top: 0px;
+
+}
+
+.img-fons{
+    position: fixed;
+    z-index: -2;
+    bottom: 0;
+    right: 10px;
+}
+
+.header .conteiner{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.conteiner{
+    max-width: 1852px;
+    padding: 0 24px 44px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    margin-left: 0;
+    padding-top: 32px;
+}
+
+.leng{
+    padding-right: 41px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px var(--black);
+    position: fixed;
+    left: 20px;
+}
+
+.inform{
+    padding-top: 70px;
+}
+
+.logo{
+    margin-right: 0;
+    padding-top: 12px;
+    position: fixed;
+    right: 0;
+    padding-right: 20px;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.list{
+    padding-left: 0;
+}
+
+.backgreey{
+    background-color: rgb(202, 202, 201);
+}
