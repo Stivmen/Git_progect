@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Create an Account</title>
+</head>
+<body>
+    <header class="header">
+        <div class="conteiner">
+         <h1 class="header_title">Create an Account</h1>   
+        </div>
+    </header>
+    <main class="main">
+        <div class="conteiner">
+            <div class="main_block duo_position">
+                <div class="name">
+                    <label for="first_name">First Name</label>
+                    <input class="block" type="text" name="First name" id="first_name">
+                </div>
+                <div class="name">
+                    <label for="last_name">Last Name</label>
+                    <input class="block" type="text" name="Last name" id="last_name">
+                </div>
+            </div>
+            <div class="main_block">
+                <label for="email">E-mail</label>
+                <input class="block big_block" type="email" name="E-mail" id="email">
+                <span class="p_text">We'll never share your email with anyone else.</span>
+            </div>
+            <div class="main_block duo_position not-duo">
+                <div class="gender_blok">
+                    <input class="block genderinput" type="radio" name="gender" id="male">
+                    <label for="male" class="radio-label">Male</label>
+                </div>
+                <div class="gender_blok">
+                    <input class="block genderinput" type="radio" name="gender" id="female">
+                    <label for="female" class="radio-label">Female</label>
+                </div>
+            </div>
+            <div class="main_block duo_position">
+                <div class="locasion">
+                    <label for="country">Country</label>
+                    <select class="block" type="text" id="country">
+                        <option value="0" disabled>Select</option>
+                        <option value="1">Ukraine</option>
+                        <option value="2">Poland</option>
+                        <option value="3">Germany</option>
+                        <option value="4">Kanada</option>
+                        <option value="5">USA</option>
+                    </select>
+                </div>
+                <div class="locasion">
+                    <label for="city">City</label>
+                    <input class="block" type="text" id="city" name="city">
+                </div>
+            </div>
+            <div class="main_block">
+                <input class="block big_block" type="text" name="clean box" id="clean_box">
+            </div>
+            <div class="main_block">
+                <p class="p_text text_size">By clicking the 'Sign Up' button, you confirm that you accept our
+                    <a class="a_link" href="#">Terms of Use</a> and <a class="a_link" href="#">Privacy Policy</a> .</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <p class="footer-text">Have an account?<a href="#" class="a_link">Log In</a></p>
+        </div>
+    </footer>
+</body>
+</html>
