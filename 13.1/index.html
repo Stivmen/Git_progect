@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header class="header">
+        <div class="conteiner">
+            <h1 class="head-title">Profile</h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="conteiner">
+            <div class="main-item">
+                <img src="src/img/image.png" alt="photo" class="img-photo">
+                <div>
+                   <input class="custom" type="file" name="photo" id="photo">
+                    <label for="photo" ></label> 
+                    <span>Up to 1 MB (300x300 px)</span>
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="input-block">
+                    <label for="name">Name</label>
+                    <input class="block" type="text" name="name" id="name"> 
+                </div>
+                <div class="input-block">
+                    <label for="email">Email</label>
+                    <input class="block" type="text" name="email" id="email">
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="locasion input-block">
+                    <label for="country">Country</label>
+                    <select class="block" type="text" id="country">
+                        <option value="0" disabled>Select</option>
+                        <option value="1">Ukraine</option>
+                        <option value="2">Poland</option>
+                        <option value="3">Germany</option>
+                        <option value="4">Kanada</option>
+                        <option value="5">USA</option>
+                    </select>
+                </div>
+                <div class="locasion input-block">
+                    <label for="city">City</label>
+                    <input class="block" type="text" id="city" name="city">
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="input-block">
+                    <label for="zip-code">Zip Code</label>
+                    <input class="block" type="text" name="zip-code" id="zip-code">
+                </div>
+                <div class="input-block">
+                    <label for="number">Phone Number</label>
+                    <input class="block" type="tel" name="number" id="number">
+                </div>
+            </div>
+            <div class="footer">
+                <textarea name="" id="" cols="30" rows="10" class="small-border"></textarea>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
