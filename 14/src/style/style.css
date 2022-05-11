@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    color: #16133D;
+}
+
+.conteiner{
+    max-width: 1185px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.logo-holder{
+    padding-top: 38px;
+    padding-bottom: 100px;
+}
+
+.upper-text{
+    color: #7690A8;
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -20px;
+}
+
+.flex-item{
+    width: calc(100% / 3);
+    padding: 0 20px 40px;
+}
+
+.flex-border{
+    width: 100%;
+    padding: 41px;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+}
+
+.flex-border:hover{
+    border: 1px solid #3DB370;
+}
+
+.svg-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+}
+
+.svg-holder:hover{
+    border: 1px solid #3DB370;
+}
+
+.svg-holder:hover .last-path{
+    fill: #3DB370;
+}
+
+.footer{
+    background: #16133D;
+}
+
+.strite-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.svg-sprite{
+    background-image: url(../img/svg-sprite-action.svg);
+    background-color: #E5EAF4;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
