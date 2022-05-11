@@ -1,0 +1,42 @@
+.footer{
+    background-color: $dark-blue;
+    padding: 36px 0 45px;
+
+    .logo-holder{
+        margin-bottom: 40px;
+    }
+
+    
+
+    .svg-sprite{
+        background: url("../img/svg-sprite-action.svg");
+        background-color: white;
+        background-position: 1px 1px;
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        margin-right: 8px;
+        background-size: 556px;
+    
+        &.pos2{
+            background-position: -74px 1px;
+        }
+
+        &.pos3{
+            background-position: -111px 1px;
+        }
+
+        &.pos4{
+            background-position: -111px -74px;
+        }
+
+        &.pos5{
+            background-position: -111px -111px;
+        }
+    }
+
+
+
+}
