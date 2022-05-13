@@ -1,0 +1,25 @@
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 44px;
+    line-height: 54px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #544837;    
+    }
+
+    .btn{
+        padding: 15px 41pz 14px;
+    }
+}
+
