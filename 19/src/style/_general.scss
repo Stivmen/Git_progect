@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1150px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h2,
+h3{
+    font-family: $red;
+    font-size: 23px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+}
+
+p{
+    font-family: $lato;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #565656;
+}

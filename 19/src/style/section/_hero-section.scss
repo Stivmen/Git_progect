@@ -1,0 +1,35 @@
+.hero-section{
+    margin-bottom: 48px;
+
+    @include media('>=tablet'){
+        margin-bottom: 130px;
+    }
+
+    .title-holder{
+        margin-bottom: 52px;
+
+        @include media('>=768px'){
+            margin-bottom: 64px;
+        }
+    }
+    
+    h1{
+        font-family: $red;
+        font-size: 16px;
+        line-height: 21px; 
+        margin-bottom: 39px;  
+        letter-spacing: 0.5em;          
+        }
+    }
+
+    strong{
+        font-family: $lato;
+        font-size: 33px;
+        line-height: 50px;
+        font-weight: 400;
+
+        @include media('>=768px'){
+            font-size: 48px;
+            line-height: 64px;
+    }
+}
