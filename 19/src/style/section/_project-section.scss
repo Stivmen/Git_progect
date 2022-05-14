@@ -1,0 +1,41 @@
+.project-section{
+    margin-bottom: 71px;
+
+    @include media('>=tablet'){
+        margin-bottom: 135px;
+    }
+
+    .flex-holder{
+        @include media('>=tablet'){
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .column{
+        margin-bottom: 71px;
+
+        @include media('>=tablet'){
+            width: 50%;
+        }
+    }
+
+    .info-holder{
+        @include media('>=tablet'){
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .info-item{
+        list-style-type: none;
+        margin-bottom: 46px;
+    
+        p{
+            margin: 0;
+        }
+    }
+
+   
+}

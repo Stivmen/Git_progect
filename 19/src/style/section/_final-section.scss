@@ -1,0 +1,21 @@
+.final-section{
+    .title-holder{
+        margin-bottom: 32px;
+
+        @include media('>=tablet'){
+            margin-bottom: 40px;
+        }
+    }
+
+    .img-holder{
+        margin-bottom: 64px;
+
+        @include media('>=tablet'){
+            margin-bottom: 128px;
+        }
+    }
+
+    .text-info{
+        padding-top: 30px;
+    }
+}
