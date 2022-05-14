@@ -22,6 +22,7 @@ li{
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn{
@@ -42,4 +43,14 @@ li{
    border-color: #BCD0E5;
    color: #173A56;
    background-color: #fff; 
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

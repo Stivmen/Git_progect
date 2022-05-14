@@ -3,6 +3,12 @@
     flex-wrap: wrap;
     justify-content: center;
 
+    .img-holder{
+        @include media('>=tablet'){
+            width: 50%;
+        }
+    }
+
     img{
         width: 100%;
     }
@@ -19,7 +25,17 @@
     }
 
     .btn{
-        padding: 15px 41pz 14px;
+        padding: 15px 41px 14px;
     }
+
+    .btn-non-style{
+
+        &::before{
+            content: "";
+            border: 10px solid transparent;
+            border-left: 13px solid #FF9900;
+        }
+    }
+
 }
 
