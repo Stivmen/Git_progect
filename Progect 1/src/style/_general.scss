@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1143px;
+    width: 100%;
+}
+
+.title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.article{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.fasle-title{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.btn{
+    width: 228px;
+    height: 63px;
+    background: linear-gradient(45deg, #496BFE 35%, #5474fd 35%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    &:hover{
+        background: linear-gradient(45deg, #5474fd 35%, #496BFE 35%);
+    }
+}

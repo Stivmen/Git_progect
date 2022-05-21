@@ -1,0 +1,55 @@
+.icon-section{
+    background-color: #333333;
+    padding-top: 46px;
+
+    .icon-holder{
+        padding: 50px 0;
+        text-align: center;
+
+        @include media('>=tablet'){
+            background-repeat: no-repeat;
+            background-position: top;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        @include media('>=desktop'){
+            background-image: url(../img/shape.svg);
+        }
+    }
+
+    .icon-box{
+        margin-bottom: 20px;
+
+        @include media('>=tablet'){
+            background-color: #333333;
+            background-size: cover;
+        }
+        
+        
+        &.box-center{
+
+            @include media('>=tablet'){
+                padding: 0 60px;
+            }
+
+            @include media('>=desktop'){
+                padding: 0 180px;
+            }
+            
+        }
+    }
+
+
+
+    .icon-link{
+        text-decoration: none;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;
+        color: #E8E8E8;
+    }
+}

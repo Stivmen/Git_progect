@@ -1,0 +1,156 @@
+.hero-section{
+    background-image: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .holder-section{
+        padding-top: 150px;
+
+        @include media('>=tablet'){
+            padding-top: 220px;
+        }
+
+        @include media('>=desktop'){
+            padding-top: 277px;
+        }
+    }
+
+    .title{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: 4.8px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 11px;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 4.8px;
+    }
+
+    .false-title{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 100;
+        letter-spacing: 6.82px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        margin-bottom: 48px;
+    }
+
+    .input-holder{
+        position: relative;
+
+
+        @include media('>=tablet'){
+            text-align: center;   
+            
+        }
+    }
+
+    .search{
+        max-width: 500px;
+        width: 100%;
+        height: 64px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #999999;
+        border: none;
+        text-align: center;
+        letter-spacing: 2.8px;
+        margin: 0 auto;
+        display: block;
+        
+
+        @include media('>=tablet'){
+            display: inline-block;
+            padding-top: 8px;
+            
+        }
+    }
+
+    .icon-btn-search{
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #FFF;
+        max-width: 153px;
+        width: 100%;
+        height: 64px;
+        text-transform: uppercase;
+        background: #5474FD;
+        border: 2px solid #FFFFFF;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        
+            &:hover{
+                background-color: #496BFE;
+            }
+        
+        
+            &:after {
+                content: "\e900";
+                color: #fff;
+                padding: 0 7px;
+                font-size: 18px;
+                
+            }
+
+        @include media('>=tablet'){
+            display: inline-block;
+            margin-left: -4px;
+            
+        }
+        
+        
+        
+    }
+
+    
+
+    .link-holder{
+        text-align: center;
+        padding-bottom: 70px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+
+        @include media('>=tablet'){
+            padding-bottom: 100px;
+        }
+
+        @include media('>=tablet'){
+            padding-bottom: 142px;
+        }
+        
+        
+
+
+        a{
+            text-decoration: none;
+            color: #FFF;
+            font-size: 14px;
+            line-height: 26px; 
+
+                &:hover{
+                    color: #496BFE;
+                }
+        }
+
+        .v{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
