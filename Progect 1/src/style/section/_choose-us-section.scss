@@ -1,0 +1,104 @@
+.choose-us-section{
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container{
+        padding: 60px 0;
+
+        @include media('>=tablet'){
+            padding: 90px 0;
+        }
+
+        @include media('>=desktop'){
+            padding: 117px 0 ;
+        }
+        
+    }
+
+    .holder-choose{
+        @include media('>=desktop'){
+            display: flex;
+            
+            
+        }
+    }
+
+    .img-box{
+        text-align: center;
+        right: 0;
+        
+
+        @include media('>=desktop'){
+            width: 50%;
+            order: 2;
+        }
+    }
+
+    img{
+        max-width: 350px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .img-posit-left{
+        @include media('>=tablet'){
+            margin-right: 20px;
+        }
+
+        @include media('>=desktop'){
+            display: block;
+            margin-left: 110px;
+            
+        }
+    }
+
+    .img-posit-right{
+        @include media('>=desktop'){
+            display: block;
+            margin-left: 200px;
+            
+        }
+    }
+
+    .info-box{
+        text-align: center;
+        padding-bottom: 30px;
+
+        @include media('>=desktop'){
+            text-align: left;
+            width: 50%;
+            padding-top: 80px;
+            padding-left: 15px;
+            
+        }
+    }  
+
+    .title{
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+
+    .article-holder{
+        margin-bottom: 45px;
+    }
+
+    .article{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        color: #E8E8E8;
+
+        @include media('>=desktop'){
+            max-width: 560px;
+        }
+    }
+
+}

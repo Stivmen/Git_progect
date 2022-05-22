@@ -1,0 +1,49 @@
+.clone-one-section{
+    background-image: url(../img/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 0;
+
+        @include media('>=tablet'){
+            padding: 150px 0 70px;
+            
+        }
+
+        @include media('>=desktop'){
+            padding: 277px 0 99px;
+            
+        }
+    }
+
+    .card{
+        max-width: 543px;
+        width: 100%;
+        background: hsla(0, 0%, 14%, 0.9);
+        padding: 49px 32px 50px;
+    }
+
+    .false-title{
+        color: #E8E8E8;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .title{
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .article{
+        color: #E8E8E8;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+
+}

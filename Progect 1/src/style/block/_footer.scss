@@ -1,0 +1,93 @@
+.footer{
+    background-color: #232323;
+    text-align: center;
+    padding: 60px 0 27px;
+
+    @include media('>=tablet'){
+        padding: 122px 0 47px;
+    }
+
+    .logo{
+        margin-bottom: 8px;
+    }
+
+    .false-title{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        display: block;
+        color: #fff;
+    }
+
+    .icon-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .icon-item{
+        list-style: none;
+    }
+
+    .icon-link{
+        text-decoration: none;
+        list-style: none;
+
+        &:hover{
+            color: #5474FD;
+        }
+    }
+
+    .icon-facebook{
+        &:before {
+            content: "\f09a";
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 5px;
+        }
+    }
+
+    .icon-twitter{
+        &:before {
+            content: "\f099";
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 5px;
+        }
+    }
+
+    .icon-linkedin{
+        &:before {
+            content: "\f0e1";
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 5px;
+        }
+    }
+
+    .icon-youtube{
+        &:before {
+            content: "\f16a";
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 5px;
+        }
+    }
+
+    .icon-pinterest{
+        &:before {
+            content: "\f0d2";
+            color: #fff;
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 5px;
+        }
+    }
+}

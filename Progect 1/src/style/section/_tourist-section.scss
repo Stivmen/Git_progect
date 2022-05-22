@@ -1,0 +1,83 @@
+.tourist-section{
+    background-image: url(../img/background5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+
+    @include media('>=tablet'){
+        padding-top: 64px;
+    }
+
+    @include media('>=desktop'){
+        padding-top: 128px;
+    }
+
+    .container{
+        padding: 30px 0 50px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 36px;
+        line-height: 26px; 
+
+        @include media('>=tablet'){
+            padding-bottom: 45px;
+        }
+
+        @include media('>=desktop'){
+            padding-bottom: 91px;
+        }
+    }
+
+    .quote{
+        @include media('>=tablet'){
+            margin-bottom: 100px;
+        }
+
+        @include media('>=desktop'){
+            display: flex;
+            margin-bottom: 199px;
+            text-align: start;
+        }
+    }
+
+    img{
+        max-width: 445px;
+        width: 100%;
+    }
+
+    .info{
+        background: #333333;
+
+        @include media('>=desktop'){
+            max-width: 668px;
+            padding: 49px 25px 39px 62px;
+            
+        }
+    }
+
+    h3{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FEFEFE;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFEFE;
+    }
+
+    .icon-quote-left{
+        &:before {
+            content: "\f10d";
+            color: #496BFE;
+            font-size: 36px;
+        }
+    }
+
+}
