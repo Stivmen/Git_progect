@@ -26,7 +26,7 @@
 // alert(aaa + '' + bbb2 + '' + ccc2);
 
 let contribution = prompt('Введіть сумму вкладу')
-let interestamount = (contribution * 2 * 0.05);
+let interestamount = (contribution * 0.05) / 6;
 alert('Ваш прибуток за 2 місяці' + ' ' +  interestamount);
 
 //  2 && 0 && 3  виводить 0
