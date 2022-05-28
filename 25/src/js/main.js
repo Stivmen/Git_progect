@@ -24,7 +24,7 @@ let age = 100;
 
 
 //Норма
-
+/*
 let firstName = prompt ('Привіт! Як тебе звати?');
 alert('Привіт'+ ' ' + firstName);;
 
@@ -38,9 +38,17 @@ alert('Тобто тобі - ' + (year - dateOfBirth) + ' ' + 'років!');
 
 let formulSquare = prompt('Назви довжину сторони квадрата в міліметрах.');
 alert('Периметр цього квадрата дорівнює - ' + (formulSquare * 4) + 'mm');
-
+*/
 // Максимум
 
-let radius = prompt('Назви радіус кола');
+// let radius = prompt('Назви радіус кола');
+// let sCircul = (Math.pow(radius, 2) * Math.PI);
+// alert('Площа кола дорівнює ' +  sCircul);
 
-alert('Радіус кола дорівнює ' + )
+// let distans = prompt('Вкажіть відстань між містами в кілометрах:');
+// let time = prompt('Вкажіть час за який ви бажали б дістатись своєї цілі в годинах:');
+// alert('Бажана швидкість становить: ' + (distans / time) + 'км/год');
+
+const evro = 0.93;
+let dollar = prompt('Вкажіть сумму яку ви хочете конвертувати з долларів в євро.')
+alert('Ваша сумма в євро: ' + (dollar * evro));
