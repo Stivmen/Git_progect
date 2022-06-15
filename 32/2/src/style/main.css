@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.modal{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(128, 194, 252);
+    border-radius: 5px;
+    transition: all ease-in-out 0.3s;
+    padding: 15px;
+}
+
+
+.modal.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.open{
+    margin: 0 auto;
+}
