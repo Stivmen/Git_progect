@@ -33,14 +33,10 @@ let playList = [
     }
 ];
 
-playList.sort(function(a, b) {
-    return a.author.localeCompare(b.author);
-});
-console.log(playList);
+let ol = document.createElement('ol');
 
-let list = document.querySelector(".playList");
-for (let i = 0; i < playList.length; i++) {
-    let listItem = document.createElement('li');
-    listItem.innerText = `${playList[i].author} є виконавцем пісні ${playList[i].song}.`;
-    list.appendChild(listItem);
+document.body.append(ol);
+
+for (let i = 0; i < playList.length; ++i) {
+    ol.insertAdjacentHTML('beforeend', `<li><p>Author: ${playList[i].author}</p><p>Song: ${playList[i].song}</p></li>`);
 }
