@@ -42,7 +42,7 @@
 class Marker{
     constructor(){
         this.color = 'Fuchsia'
-        this.bag = 100
+        this.bag = 100 + "%"
         this.text = ''
     }
     
@@ -67,13 +67,12 @@ class Marker{
         if (this.bag >= sum){
             console.log(`%c ${this.text}`, `color: ${this.color}`)
             return this.bag = this.bag - sum;
-        }else if (this.bag != sum || this.bag == 0){
-            console.log('Чорнила закінчились');
-            }
-            break;
+            }  
         }
+        addtext();
+
     }
-    return;
+    
     
 }
 
