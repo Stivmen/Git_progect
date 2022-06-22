@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    padding: 0 10px;
+}
+body{
+    background-image: url(/fon.jpg);
+    color: #fff;
+}
+
+.filter-list{
+    text-align: center;
+    list-style-type: none;
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10% ;
+    height: 100%;
+}
+
+.product-block {
+    display: flex;
+    padding: 10px;
+    margin: 0 0 30px;
+}
+
+.child{
+    background-color: rgba(255, 255, 255, 0.607);
+    width: 50%;
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 10%;
+    margin: 0 10px;
+    transform: translate(50%);
+    z-index: 1;
+}
+
+.img-holder {
+    padding: 20px;
+    text-align: center;
+}
+
+.modal.active{
+    display: none;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgb(6, 0, 0);
+    border-radius: 10%;
+    color: white;
+    width: 70%;
+    
+    margin: 0 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+}
+
+.img-holder-modal{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info,
+.info-modal{
+    justify-content: center;
+    text-align: center;
+}
