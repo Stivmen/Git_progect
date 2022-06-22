@@ -34,7 +34,7 @@ function fetchFunc (id, modal) {
                 const structure = `
                     <div class="product-block-modal" data-id="${item.id}">
                         <div class="img-holder-modal">
-                            <img src="${item.images[0]}" alt="">
+                            <img src="${item.images[1]}" alt="">
                         </div>
                         <div class="info-modal">
                             <h3>${item.brand}</h3>
