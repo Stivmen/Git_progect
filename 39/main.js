@@ -3,7 +3,7 @@ const container = document.querySelector('.container');
 fetchRequest();
 
 function fetchRequest() {
-    fetch("https://api.openweathermap.org/data/2.5/weather?lat=48.374806&lon=35.178537&appid=d813e8ffac67731e2e3a2ca923ae3f56").then(response => {
+    fetch("https://api.openweathermap.org/data/2.5/weather?lat=48.374806&lon=35.178537&appid=d813e8ffac67731e2e3a2ca923ae3f56&units=metric").then(response => {
     return response.json();
     }).then(data => {
         while (container.firstChild){
@@ -15,8 +15,8 @@ function fetchRequest() {
         console.log(data);
 
         let city = box.name;
-        let temp =(Math.round(box.main.temp) - 273,15);
-        let feelsLike = (Math.round(box.main.feels_like) - 273,15);
+        let temp =Math.round(box.main.temp);
+        let feelsLike = Math.round(box.main.feels_like);
         let weatherStatus = box.weather[0].main;
         let weatherIcon = data.weather[0].icon;
 
@@ -35,8 +35,8 @@ function fetchRequest() {
                     </div>
                     <div class="info-holder">
                         <ul class="list-holder">
-                            <li class="list-item">Temperature: ${temp}</li>
-                            <li class="list-item">Feels Like: ${feelsLike}</li>
+                            <li class="list-item">Temperature: ${temp} &#176С</li>
+                            <li class="list-item">Feels Like: ${feelsLike} &#176С</li>
                             <li class="list-item">Weather Status: ${weatherStatus}</li>
                             
                         </ul>
