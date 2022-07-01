@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue" sans-serif;
+    background-color: rgb(137, 196, 249);
+    width: 100%;
+    height: 100vh;
+    padding-top: 250px;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.519);
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.519);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.weather{
+    font-size: 35px;
+}
+
+.list-holder{
+    list-style-type: none;
+}
+
+.status{
+    max-width: 150px;
+    width: 100%;
+}
+
+.list-item{
+    padding-bottom: 20px;
+}
