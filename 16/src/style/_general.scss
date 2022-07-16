@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding: 11px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-white{
+   @extend .btn;
+   border-color: #BCD0E5;
+   color: #173A56;
+   background-color: #fff; 
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
